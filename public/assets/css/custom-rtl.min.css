@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'Jameel Noori Nastaleeq';
+    src: local('Jameel Noori Nastaleeq');
+    unicode-range: U+0600-06FF; /* Unicode range for Urdu characters */
+}
+
+:root, [data-bs-theme=light] {
+    --vz-font-sans-serif: Jameel Noori Nastaleeq, "Poppins", sans-serif;
+}
+
+/*# sourceMappingURL=custom-rtl.min.css.map */
+.calibri {
+    font-family: 'calibri' !important;
+}
+
+.jameel-noori-nastaleeq {
+    font-family: Jameel Noori Nastaleeq;
+}
+
+#back-to-top {
+    bottom: 60px !important;
+}
+
+input, label, h1, h2, h3, h4, h5, h6, p, a {
+    font-family: Jameel Noori Nastaleeq, Poppins, sans-serif;
+}
+
+label {
+    font-size: 20px;
+}
+
+table, thead, body, tfoot, tr, th, td {
+    font-family: Jameel Noori Nastaleeq, Poppins, sans-serif;
+}
+
+table, thead, body, tfoot, tr, th, td {
+    font-size: 16px;
+}
+
+button, .btn {
+    font-family: Jameel Noori Nastaleeq, Poppins, sans-serif;
+}
+
+:is(.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6) {
+    font-family: Jameel Noori Nastaleeq, Poppins, sans-serif;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-15 {
+    font-size: 15px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.font-22 {
+    font-size: 22px;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+.font-25 {
+    font-size: 25px;
+}
+
+.font-30 {
+    font-size: 30px;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+input {
+    text-align: right;
+}
+
+.form-control, select, .select2 {
+    font-size: 18px !important;
+    border-radius: 30px !important;
+}
+
+.select2-selection__choice {
+    background-color: black !important;
+    border-radius: 30px !important;
+}
+
+.dataTables_filter {
+    text-align: left !important;
+}
+
+.pull-left {
+    float: left;
+}
+
+.tooltip-inner {
+    font-family: Jameel Noori Nastaleeq, Poppins, sans-serif;
+    font-size: 15px;
+}
+
+.form-control-sm {
+    border-radius: 2rem;
+}
+
+.form-select-sm {
+    border-radius: 2rem;
+}
+.active>.page-link, .page-link.active {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: var(--vz-pagination-active-color);
+    background-color: black;
+    border-color: ;
+    border-radius: 0.5rem;
+}
+
+.page-link {
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 0.5rem;
+}
+
+.pagination {
+    --vz-pagination-color: black;
+    --vz-pagination-hover-color: black;
+}
+.select2-selection__choice__remove {
+    background-color: white !important;
+    border: none !important;
+    color: #000 !important;
+    font-size: 1em !important;
+    font-weight: bold !important;
+    position: inherit !important;
+    left: auto !important;
+    top: 0 !important;
+
+}
+
+.select2-container--default .select2-selection--multiple {
+    border-radius: 30px !important;
+}
+
+.form-switch .form-check-input:focus {
+    background-image : url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%280, 0, 0, 0.25%29'/%3e%3c/svg%3e");
+}
+
+.form-switch .form-check-input:checked {
+    background-position: left center;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+
+.form-select-side-bar {
+    font-size: 15px !important;
+    padding: 0.6rem 1rem 0.6rem 1rem !important;
+    margin: 0.6rem 3.5rem 0.6rem 3.5rem !important;
+    line-height: 0.8;
+    appearance: none;
+}
+.form-select-top-bar {
+    padding: 0.3rem 1.2rem 0.2rem 0.2rem !important;
+    line-height: 1.5 !important;
+}
+
+
+.card-custom {
+    --vz-box-shadow: 0 0px 10px -3px rgba(0,0,0,0.1) !important;
+    --vz-card-border-radius: 1rem !important;
+    --vz-card-inner-border-radius: 1rem !important;
+}
+
+.modal-custom {
+    padding: 1.25rem !important;
+}
+
+.select2-container .select2-selection--single {
+    height: 45px !important;
+}
+
+.select2-container--default .select2-selection--single{
+    border-radius: 30px !important;
+}
+
+.select2-container--default[dir="ltr"] .select2-selection--single .select2-selection__arrow {
+    left: 8px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 10px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 40px !important;
+}
