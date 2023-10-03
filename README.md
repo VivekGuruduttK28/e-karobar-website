@@ -16,5 +16,5 @@ In order to ensure that the E-karobar is welcoming to all, please review and abi
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within E-Karobar, please send an e-mail to Taylor Otwell via [officialzubairansari@gmail.com](mailto:officialzubairansari@gmail.com). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within E-Karobar, please send an e-mail to Taylor Otwell via <i>[officialzubairansari@gmail.com](mailto:officialzubairansari@gmail.com)<i>. All security vulnerabilities will be promptly addressed.
 
