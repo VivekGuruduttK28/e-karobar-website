@@ -99,6 +99,61 @@
         </div><!-- end container -->
     </section><!-- end hero section -->
 
+    <!-- start client section -->
+    <div class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <div class="text-center mt-5">
+                        <h5 class="fs-20">Our Payment Partners</h5>
+
+                        <!-- Swiper -->
+                        <div class="swiper trusted-client-slider mt-sm-5 mt-4 mb-sm-5 mb-4" dir="ltr">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="client-images">
+                                        <img src="{{ asset('assets/images/payouts_methods/nayapay.png') }}" alt="bank-img" class="mx-auto img-fluid d-block">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="client-images">
+                                        <img src="{{ asset('assets/images/payouts_methods/sadapay.png') }}" alt="bank-img" class="mx-auto img-fluid d-block">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="client-images">
+                                        <img src="{{ asset('assets/images/payouts_methods/easypaisa.png') }}" alt="bank-img" class="mx-auto img-fluid d-block">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="client-images">
+                                        <img src="{{ asset('assets/images/payouts_methods/jazzcash.png') }}" alt="bank-img" class="mx-auto img-fluid d-block">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="client-images">
+                                        <img src="{{ asset('assets/images/payouts_methods/hbl.png') }}" alt="bank-img" class="mx-auto img-fluid d-block">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="client-images">
+                                        <img src="{{ asset('assets/images/payouts_methods/meezan.png') }}" alt="bank-img" class="mx-auto img-fluid d-block">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end client section -->
+
+
     <!-- start services -->
     <section class="section" id="services">
         <div class="container">
@@ -476,6 +531,8 @@
         </div><!-- end container -->
     </section><!-- end Work Process -->
 
+
+
     <!-- start cta -->
     <section class="py-5 bg-primary position-relative">
         <div class="bg-overlay bg-overlay-pattern opacity-50"></div>
@@ -615,6 +672,8 @@
 <script src="{{ asset('assets/libs/swiper/swiper-bundle.min.js') }}"></script>
 
 <script src="{{ asset('assets/js/pages/nft-landing.init.js') }}"></script>
+<script src="{{ asset('assets/js/pages/landing.init.js') }}"></script>
+
 </body>
 
 </html>
