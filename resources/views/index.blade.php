@@ -622,21 +622,21 @@
                     <div class="text-sm-end mt-3 mt-sm-0">
                         <ul class="list-inline mb-0 footer-social-link">
                             <li class="list-inline-item">
-                                <a href="https://facebook.com/e_karobar" class="avatar-xs d-block">
+                                <a href="https://facebook.com/e_karobar" target="_blank" class="avatar-xs d-block">
                                     <div class="avatar-title rounded-circle">
                                         <i class="ri-facebook-fill"></i>
                                     </div>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="https://github.com/officialzubairansari/e-karobar-website" class="avatar-xs d-block">
+                                <a href="https://github.com/officialzubairansari/e-karobar-website" target="_blank" class="avatar-xs d-block">
                                     <div class="avatar-title rounded-circle">
                                         <i class="ri-github-fill"></i>
                                     </div>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="https://instagram.com/e_karobar" class="avatar-xs d-block">
+                                <a href="https://instagram.com/e_karobar" target="_blank" class="avatar-xs d-block">
                                     <div class="avatar-title rounded-circle">
                                         <i class="ri-instagram-line"></i>
                                     </div>
