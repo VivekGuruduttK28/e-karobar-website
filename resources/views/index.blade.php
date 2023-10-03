@@ -60,10 +60,16 @@
                     </li>
                 </ul>
 
-                <div class="">
+                <div class="m-2">
                     <a class="btn btn-success btn-label waves-effect waves-light rounded-pill" href="https://clients.e-karobar.com/login">
                         <i class="ri-login-circle-line label-icon align-middle fs-16"></i>
                         Client's Login
+                    </a>
+                </div>
+                <div class="">
+                    <a class=" btn btn-secondary btn-label waves-effect waves-light rounded-pill" href="{{ route('signup.index') }}">
+                        <i class="ri-add-circle-line label-icon align-middle fs-16"></i>
+                        Create Account
                     </a>
                 </div>
             </div>
@@ -82,10 +88,6 @@
                     <div class="text-center">
                         <h1 class="display-4 fw-medium mb-4 lh-base text-white">Pakistan #1 high profitable <span class="text-success">Dropshipping Marketplace</span></h1>
                         <div class="hstack gap-2 justify-content-center">
-                            <a class="btn btn-secondary btn-label waves-effect waves-light rounded-pill" href="https://e-karobar.com/kick-start">
-                                <i class="ri-rocket-line label-icon align-middle fs-16"></i>
-                                Kick Start
-                            </a>
                             <a class="btn btn-danger btn-label waves-effect waves-light rounded-pill" href="https://www.youtube.com/@E_KAROBAR">
                                 <i class="ri-youtube-line label-icon align-middle fs-16"></i>
                                 Training Sessions
