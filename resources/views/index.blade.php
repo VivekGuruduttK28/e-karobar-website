@@ -591,7 +591,7 @@
                             <div class="text-muted mt-3">
                                 <ul class="list-unstyled ff-secondary footer-list">
                                     <li><a href="#">FAQ</a></li>
-                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#contact">Contact</a></li>
                                     </ul>
                             </div>
                         </div>
