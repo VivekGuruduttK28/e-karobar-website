@@ -331,28 +331,28 @@
             <div class="row text-center gy-4">
                 <div class="col-lg-3 col-6">
                     <div>
-                        <h2 class="mb-2 text-white"><span class="counter-value" data-target="100">450</span>+</h2>
+                        <h2 class="mb-2 text-white"><span class="counter-value" data-target="100">250+</span>+</h2>
                         <div class="text-muted text-white">Active Clients</div>
                     </div>
                 </div>
                 <!-- end col -->
                 <div class="col-lg-3 col-6">
                     <div>
-                        <h2 class="mb-2 text-white"><span class="counter-value" data-target="24">950+</span></h2>
+                        <h2 class="mb-2 text-white"><span class="counter-value" data-target="24">500+</span></h2>
                         <div class="text-muted text-white">Wining Products</div>
                     </div>
                 </div>
                 <!-- end col -->
                 <div class="col-lg-3 col-6">
                     <div>
-                        <h2 class="mb-2 text-white"><span class="counter-value" data-target="20.3">15</span>k</h2>
+                        <h2 class="mb-2 text-white"><span class="counter-value" data-target="20.3">680k+</span>k</h2>
                         <div class="text-muted text-white">Parcel Delivered</div>
                     </div>
                 </div>
                 <!-- end col -->
                 <div class="col-lg-3 col-6">
                     <div>
-                        <h2 class="mb-2 text-white"><span class="counter-value" data-target="50">25</span></h2>
+                        <h2 class="mb-2 text-white"><span class="counter-value" data-target="50">17</span></h2>
                         <div class="text-muted text-white">Employees</div>
                     </div>
                 </div>
@@ -382,7 +382,7 @@
                     <div>
                         <div class="mt-4">
                             <h5 class="fs-13 text-muted text-uppercase">Office Address 1:</h5>
-                            <div class="ff-secondary fw-semibold">Office #AB-00, Alkaram Plaza </BR>Kharadar, Karachi</div>
+                            <div class="ff-secondary fw-semibold">Office #2 Dua Manzil Khardar Punjabi Club Near Madina Masjid</BR>Karachi</div>
                         </div>
                         <div class="mt-4">
                             <h5 class="fs-13 text-muted text-uppercase">Working Hours:</h5>
@@ -599,7 +599,7 @@
                             <h5 class="text-white mb-0">Address & Hours</h5>
                             <div class="text-muted mt-3">
                                 <div class="mt-4">
-                                    <p>Office #AB-00, Alkaram Plaza Kharadar, Karachi</p>
+                                    <p>Office #2 Dua Manzil Khardar Punjabi Club Near Madina Masjid, Karachi</p>
                                     <p>11:30m – 7pm Local Time Mon-Sat</p>
                                 </div>
                             </div>
