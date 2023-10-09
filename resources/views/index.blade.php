@@ -345,7 +345,7 @@
                 <!-- end col -->
                 <div class="col-lg-3 col-6">
                     <div>
-                        <h2 class="mb-2 text-white"><span class="counter-value" >680K+</span>k</h2>
+                        <h2 class="mb-2 text-white"><span class="counter-value" data-target="680">0K+</span>k</h2>
                         <div class="text-muted text-white">Parcel Delivered</div>
                     </div>
                 </div>
