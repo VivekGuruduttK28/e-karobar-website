@@ -331,28 +331,28 @@
             <div class="row text-center gy-4">
                 <div class="col-lg-3 col-6">
                     <div>
-                        <h2 class="mb-2 text-white"><span class="counter-value" data-target="100">250+</span>+</h2>
+                        <h2 class="mb-2 text-white"><span class="counter-value" data-target="250">0+</span>+</h2>
                         <div class="text-muted text-white">Active Clients</div>
                     </div>
                 </div>
                 <!-- end col -->
                 <div class="col-lg-3 col-6">
                     <div>
-                        <h2 class="mb-2 text-white"><span class="counter-value" data-target="24">500+</span></h2>
+                        <h2 class="mb-2 text-white"><span class="counter-value" data-target="500">0+</span></h2>
                         <div class="text-muted text-white">Wining Products</div>
                     </div>
                 </div>
                 <!-- end col -->
                 <div class="col-lg-3 col-6">
                     <div>
-                        <h2 class="mb-2 text-white"><span class="counter-value" data-target="20.3">680k+</span>k</h2>
+                        <h2 class="mb-2 text-white"><span class="counter-value" >680K+</span>k</h2>
                         <div class="text-muted text-white">Parcel Delivered</div>
                     </div>
                 </div>
                 <!-- end col -->
                 <div class="col-lg-3 col-6">
                     <div>
-                        <h2 class="mb-2 text-white"><span class="counter-value" data-target="50">17</span></h2>
+                        <h2 class="mb-2 text-white"><span class="counter-value" data-target="17">0</span></h2>
                         <div class="text-muted text-white">Employees</div>
                     </div>
                 </div>
