@@ -179,7 +179,7 @@
                             </div>
                             <div class="card-body">
                                 <p class="fw-medium mb-0 float-end"><i class="ri-shopping-cart-fill text-success align-middle"></i> 2k </p>
-                                <h5 class="mb-1"><a href="apps-nft-item-details.html">High Quality Metal Body Black Nozzle</a></h5>
+                                <h5 class="mb-1"><a href="">High Quality Metal Body Black Nozzle</a></h5>
                                 <p class="text-muted mb-0">Health & Beauty</p>
                             </div>
                         </div>
