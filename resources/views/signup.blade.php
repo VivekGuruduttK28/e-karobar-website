@@ -159,7 +159,7 @@
                                             <div class="mb-3">
                                                 <label for="iban" class="form-label font-18">IBAN</label>
                                                 <input type="text" class="form-control font-15" id="iban"
-                                                       placeholder="IBANe" name="iban">
+                                                       placeholder="IBAN" name="iban">
                                                 @error('iban')
                                                 <div class="text-danger">{{ $message }}</div>
                                                 @enderror
