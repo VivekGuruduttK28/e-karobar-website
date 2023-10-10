@@ -386,7 +386,7 @@
                         </div>
                         <div class="mt-4">
                             <h5 class="fs-13 text-muted text-uppercase">Working Hours:</h5>
-                            <div class="ff-secondary fw-semibold">11:30m – 7pm </BR>Local Time Mon-Sat</div>
+                            <div class="ff-secondary fw-semibold">10:00 am – 10:00 pm </BR>Local Time Mon-Sat</div>
                         </div>
                     </div>
                 </div>
@@ -600,7 +600,7 @@
                             <div class="text-muted mt-3">
                                 <div class="mt-4">
                                     <p>Office #2 Dua Manzil Khardar Punjabi Club Near Madina Masjid, Karachi</p>
-                                    <p>11:30m – 7pm Local Time Mon-Sat</p>
+                                    <p>10:00 am – 10:00pm Local Time Mon-Sat</p>
                                 </div>
                             </div>
                         </div>
