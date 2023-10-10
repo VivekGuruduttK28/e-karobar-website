@@ -160,18 +160,50 @@
                                             </div>
                                         </div>
                                     </div>
-
-
-
-
-
-
-
-
-
-
-
-
+                                    <div class="row gy-4">
+                                        <div class="col-xxl-6 col-md-6">
+                                            <div class="mb-3">
+                                                <label for="bank_name" class="form-label font-18">Bank Name</label>
+                                                <input type="text" class="form-control font-15" id="bank_name"
+                                                       placeholder="Bank Name" name="bank_name">
+                                                @error('bank_name')
+                                                <div class="text-danger">{{ $message }}</div>
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-6 col-md-6">
+                                            <div class="mb-3">
+                                                <label for="account_no" class="form-label font-18">Account No</label>
+                                                <input type="text" class="form-control font-15" id="account_no"
+                                                       placeholder="Account No" name="account_no">
+                                                @error('account_no')
+                                                <div class="text-danger">{{ $message }}</div>
+                                                @enderror
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row gy-4">
+                                        <div class="col-xxl-6 col-md-6">
+                                            <div class="mb-3">
+                                                <label for="iban" class="form-label font-18">IBAN</label>
+                                                <input type="text" class="form-control font-15" id="iban"
+                                                       placeholder="IBANe" name="iban">
+                                                @error('iban')
+                                                <div class="text-danger">{{ $message }}</div>
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-6 col-md-6">
+                                            <div class="mb-3">
+                                                <label for="account_title" class="form-label font-18">Account Title</label>
+                                                <input type="text" class="form-control font-15" id="account_title"
+                                                       placeholder="Account Title" name="account_title">
+                                                @error('account_title')
+                                                <div class="text-danger">{{ $message }}</div>
+                                                @enderror
+                                            </div>
+                                        </div>
+                                    </div>
 
                                     <div class="form-check">
                                         <input class="form-check-input" type="checkbox" value=""
