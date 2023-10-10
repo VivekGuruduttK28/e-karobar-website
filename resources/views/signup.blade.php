@@ -135,34 +135,6 @@
                                     <div class="row gy-4">
                                         <div class="col-xxl-6 col-md-6">
                                             <div class="mb-3">
-                                                <label class="form-label font-18" for="password-input">Password</label>
-                                                <div class="position-relative auth-pass-inputgroup mb-3">
-                                                    <input type="password" class="form-control pe-5 password-input font-15"
-                                                           placeholder="password" id="password-input" name="password">
-                                                    <button
-                                                        class="btn btn-link position-absolute end-0 top-0 text-decoration-none text-muted shadow-none password-addon"
-                                                        type="button" id="password-addon"><i
-                                                            class="ri-eye-fill align-middle"></i></button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-xxl-6 col-md-6">
-                                            <div class="mb-3">
-                                                <label class="form-label font-18" for="password-input">Re-enter Password</label>
-                                                <div class="position-relative auth-pass-inputgroup mb-3">
-                                                    <input type="password" class="form-control pe-5 password-input font-15"
-                                                           placeholder="password" id="password-input" name="re-password">
-                                                    <button
-                                                        class="btn btn-link position-absolute end-0 top-0 text-decoration-none text-muted shadow-none password-addon"
-                                                        type="button" id="password-addon"><i
-                                                            class="ri-eye-fill align-middle"></i></button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row gy-4">
-                                        <div class="col-xxl-6 col-md-6">
-                                            <div class="mb-3">
                                                 <label for="bank_name" class="form-label font-18">Bank Name</label>
                                                 <input type="text" class="form-control font-15" id="bank_name"
                                                        placeholder="Bank Name" name="bank_name">
@@ -204,7 +176,34 @@
                                             </div>
                                         </div>
                                     </div>
-
+                                    <div class="row gy-4">
+                                        <div class="col-xxl-6 col-md-6">
+                                            <div class="mb-3">
+                                                <label class="form-label font-18" for="password-input">Password</label>
+                                                <div class="position-relative auth-pass-inputgroup mb-3">
+                                                    <input type="password" class="form-control pe-5 password-input font-15"
+                                                           placeholder="password" id="password-input" name="password">
+                                                    <button
+                                                        class="btn btn-link position-absolute end-0 top-0 text-decoration-none text-muted shadow-none password-addon"
+                                                        type="button" id="password-addon"><i
+                                                            class="ri-eye-fill align-middle"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-6 col-md-6">
+                                            <div class="mb-3">
+                                                <label class="form-label font-18" for="password-input">Re-enter Password</label>
+                                                <div class="position-relative auth-pass-inputgroup mb-3">
+                                                    <input type="password" class="form-control pe-5 password-input font-15"
+                                                           placeholder="password" id="password-input" name="re-password">
+                                                    <button
+                                                        class="btn btn-link position-absolute end-0 top-0 text-decoration-none text-muted shadow-none password-addon"
+                                                        type="button" id="password-addon"><i
+                                                            class="ri-eye-fill align-middle"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="form-check">
                                         <input class="form-check-input" type="checkbox" value=""
                                                id="auth-remember-check">
