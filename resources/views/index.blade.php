@@ -171,7 +171,7 @@
                     <div class="col-lg-4 product-item artwork crypto-card 3d-style">
                         <div class="card explore-box card-animate">
                             <div class="explore-place-bid-img">
-                                <img src="assets/images/product/img-03.jpg" alt="" class="card-img-top explore-img" />
+                                <img src="http://systems.e-karobar.com/storage/assets/images/product_image/105e5460-ba27-4948-8ee1-8ff0426c2cae.jfif" alt="" class="card-img-top explore-img" />
                                 <div class="bg-overlay"></div>
                             </div>
                             <div class="card-body">
