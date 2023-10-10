@@ -47,6 +47,9 @@
                         <a class="nav-link fs-15 active" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link fs-15 active" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link fs-15 active" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
@@ -153,6 +156,38 @@
     </div>
     <!-- end client section -->
 
+    <!-- start marketplace -->
+    <section class="section bg-light" id="products">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="text-center mb-5">
+                            <h2 class="mb-3 fw-semibold lh-base">Our Products</h2>
+                            <p class="text-muted mb-4">500+ Top nech winning products with hight profit ratio.</p>
+                        </div>
+                    </div><!-- end col -->
+                </div><!-- end row -->
+                <div class="row">
+                    <div class="col-lg-4 product-item artwork crypto-card 3d-style">
+                        <div class="card explore-box card-animate">
+                            <div class="bookmark-icon position-absolute top-0 end-0 p-2">
+                                <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
+                            </div>
+                            <div class="explore-place-bid-img">
+                                <img src="assets/images/product/img-03.jpg" alt="" class="card-img-top explore-img" />
+                                <div class="bg-overlay"></div>
+                            </div>
+                            <div class="card-body">
+                                <p class="fw-medium mb-0 float-end"><i class="ri-shopping-cart-fill text-success align-middle"></i> 2k </p>
+                                <h5 class="mb-1"><a href="apps-nft-item-details.html">High Quality Metal Body Black Nozzle</a></h5>
+                                <p class="text-muted mb-0">Health & Beauty</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end container -->
+        </section>
+        <!-- end marketplace -->
 
     <!-- start services -->
     <section class="section" id="services">
