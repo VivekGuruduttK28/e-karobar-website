@@ -170,15 +170,12 @@
                 <div class="row">
                     <div class="col-lg-4 product-item artwork crypto-card 3d-style">
                         <div class="card explore-box card-animate">
-                            <div class="bookmark-icon position-absolute top-0 end-0 p-2">
-                                <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
-                            </div>
                             <div class="explore-place-bid-img">
                                 <img src="assets/images/product/img-03.jpg" alt="" class="card-img-top explore-img" />
                                 <div class="bg-overlay"></div>
                             </div>
                             <div class="card-body">
-                                <p class="fw-medium mb-0 float-end"><i class="ri-shopping-cart-fill text-success align-middle"></i> 2k </p>
+                                <p class="fw-medium mb-0 float-end"><i class="ri-shopping-bag-fill text-primary align-middle"></i> 2k </p>
                                 <h5 class="mb-1"><a href="">High Quality Metal Body Black Nozzle</a></h5>
                                 <p class="text-muted mb-0">Health & Beauty</p>
                             </div>
