@@ -20,4 +20,3 @@ Route::get('/', function () {
 
 
 Route::resource('signup', SignupController::class);
-Route::resource('products', ProductController::class);
