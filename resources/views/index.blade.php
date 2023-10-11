@@ -47,7 +47,7 @@
                         <a class="nav-link fs-15 active" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-15 active" href="#products">Products</a>
+                        <a class="nav-link fs-15 active" href="{{ route('product.index') }}">Products</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link fs-15 active" href="#services">Services</a>

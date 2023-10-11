@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\DataTables\DepartmentsDataTable;
-use App\Models\Department;
 use Illuminate\Http\Request;
 
 class SignupController extends Controller
