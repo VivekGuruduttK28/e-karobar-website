@@ -425,7 +425,7 @@
                 <!-- end col -->
                 <div class="col-lg-8">
                     <div>
-                        <form>
+                    <form action="https://formsubmit.co/e-karobar.com@hotmail.com" method="POST" />
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="mb-4">
