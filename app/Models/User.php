@@ -15,6 +15,7 @@ class User extends Model
         'company',
         'website',
         'user_type',
+        'contact_no',
         'email',
         'cnic_no',
         'employee_code',

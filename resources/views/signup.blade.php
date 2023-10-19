@@ -88,7 +88,7 @@
                                         <div class="col-xxl-6 col-md-6">
                                             <div class="mb-3">
                                                 <label for="email" class="form-label font-18">Email</label>
-                                                <input type="text" class="form-control font-15" id="email"
+                                                <input type="email" class="form-control font-15" id="email"
                                                        placeholder="Email" name="email">
                                                 @error('email')
                                                 <div class="text-danger">{{ $message }}</div>
@@ -99,7 +99,7 @@
                                             <div class="mb-3">
                                                 <label for="cnic_no" class="form-label font-18">CNIC #</label>
                                                 <input type="text" class="form-control font-15" id="cnic_no"
-                                                       placeholder="Email" name="cnic_no">
+                                                       placeholder="42201-0000000-0" name="cnic_no">
                                                 @error('cnic_no')
                                                 <div class="text-danger">{{ $message }}</div>
                                                 @enderror
@@ -111,7 +111,7 @@
                                             <div class="mb-3">
                                                 <label for="contact_no" class="form-label font-18">Contact/WhatsApp</label>
                                                 <input type="text" class="form-control font-15" id="contact_no"
-                                                       placeholder="Contact/WhatsApp" contact_no="contact_no">
+                                                       placeholder="Contact/WhatsApp" name="contact_no">
                                                 @error('contact_no')
                                                 <div class="text-danger">{{ $message }}</div>
                                                 @enderror
