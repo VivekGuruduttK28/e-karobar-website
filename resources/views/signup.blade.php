@@ -56,14 +56,14 @@
             <!-- end row -->
 
             <div class="row justify-content-center">
-                <div class="col-md-8 col-lg-6 col-xl-5">
+                <div class="col-md-8 col-lg-6 col-xl-7">
                     <div class="card mt-4">
                         <div class="card-body p-4">
                             <div class="p-2 mt-4">
                                 <form action="{{ route('signup.store') }}" method="post">
                                     @csrf
                                     <div class="row gy-4">
-                                        <div class="col-xxl-12 col-md-6">
+                                        <div class="col-xxl-6 col-md-6">
                                             <div class="mb-3">
                                                 <label for="name" class="form-label font-18">Full Name</label>
                                                 <input type="text" class="form-control font-15" id="name"
@@ -73,18 +73,52 @@
                                                 @enderror
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="row gy-4">
                                         <div class="col-xxl-6 col-md-6">
                                             <div class="mb-3">
-                                                <label for="username" class="form-label font-18">Username</label>
-                                                <input type="text" class="form-control font-15" id="username"
-                                                       placeholder="Username" name="username">
-                                                @error('username')
+                                                <label for="user_name" class="form-label font-18">Username</label>
+                                                <input type="text" class="form-control font-15" id="user_name"
+                                                       placeholder="Username" name="user_name">
+                                                @error('user_name')
                                                 <div class="text-danger">{{ $message }}</div>
                                                 @enderror
                                             </div>
                                         </div>
+                                    </div>
+                                    <div class="row gy-4">
+                                        <div class="col-xxl-6 col-md-6">
+                                            <div class="mb-3">
+                                                <label for="email" class="form-label font-18">Email</label>
+                                                <input type="text" class="form-control font-15" id="email"
+                                                       placeholder="Email" name="email">
+                                                @error('email')
+                                                <div class="text-danger">{{ $message }}</div>
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-6 col-md-6">
+                                            <div class="mb-3">
+                                                <label for="cnic_no" class="form-label font-18">CNIC #</label>
+                                                <input type="text" class="form-control font-15" id="cnic_no"
+                                                       placeholder="Email" name="cnic_no">
+                                                @error('cnic_no')
+                                                <div class="text-danger">{{ $message }}</div>
+                                                @enderror
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row gy-4">
+                                        <div class="col-xxl-6 col-md-6">
+                                            <div class="mb-3">
+                                                <label for="contact_no" class="form-label font-18">Contact/WhatsApp</label>
+                                                <input type="text" class="form-control font-15" id="contact_no"
+                                                       placeholder="Contact/WhatsApp" contact_no="contact_no">
+                                                @error('contact_no')
+                                                <div class="text-danger">{{ $message }}</div>
+                                                @enderror
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row gy-4">
                                         <div class="col-xxl-6 col-md-6">
                                             <div class="mb-3">
                                                 <label for="company" class="form-label font-18">Company</label>
@@ -95,38 +129,12 @@
                                                 @enderror
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="row gy-4">
-                                        <div class="col-xxl-12 col-md-6">
+                                        <div class="col-xxl-6 col-md-6">
                                             <div class="mb-3">
                                                 <label for="website" class="form-label font-18">Website</label>
                                                 <input type="text" class="form-control font-15" id="website"
                                                        placeholder="Website" name="website">
                                                 @error('website')
-                                                <div class="text-danger">{{ $message }}</div>
-                                                @enderror
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row gy-4">
-                                        <div class="col-xxl-12 col-md-6">
-                                            <div class="mb-3">
-                                                <label for="email" class="form-label font-18">Email</label>
-                                                <input type="text" class="form-control font-15" id="email"
-                                                       placeholder="Email" name="email">
-                                                @error('email')
-                                                <div class="text-danger">{{ $message }}</div>
-                                                @enderror
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row gy-4">
-                                        <div class="col-xxl-12 col-md-6">
-                                            <div class="mb-3">
-                                                <label for="cnic_no" class="form-label font-18">CNIC #</label>
-                                                <input type="text" class="form-control font-15" id="cnic_no"
-                                                       placeholder="42201-0000000-0" name="cnic_no">
-                                                @error('cnic_no')
                                                 <div class="text-danger">{{ $message }}</div>
                                                 @enderror
                                             </div>
@@ -204,6 +212,7 @@
                                             </div>
                                         </div>
                                     </div>
+
                                     <div class="form-check">
                                         <input class="form-check-input" type="checkbox" value=""
                                                id="auth-remember-check">
