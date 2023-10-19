@@ -46,7 +46,7 @@ class SignupController extends Controller
             'company' => $data['company'],
             'website' => $data['website'],
             'contact_no' => $data['contact_no'],
-            'user_type' => 'clients',
+            'user_type' => 'client',
             'email' => $data['email'],
             'cnic_no' => $data['cnic_no'],
             'password' => Hash::make($data['password']),
