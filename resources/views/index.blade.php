@@ -167,21 +167,37 @@
                         </div>
                     </div><!-- end col -->
                 </div><!-- end row -->
-                <div class="row">
-                    <div class="col-lg-4 product-item artwork crypto-card 3d-style">
+                
+
+                <div class="row row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-1">
+                <!-- @foreach($products as $product) -->
+                    <div class="col">
                         <div class="card explore-box card-animate">
+                            <div class="bookmark-icon position-absolute top-0 end-0 p-2">
+                                <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
+                            </div>
                             <div class="explore-place-bid-img">
-                                <img src="http://systems.e-karobar.com/storage/assets/images/product_image/105e5460-ba27-4948-8ee1-8ff0426c2cae.jfif" alt="" class="card-img-top explore-img" />
+                                <img src="https://e-karobar-runtime-bucket.blr1.digitaloceanspaces.com/" alt="" class="card-img-top explore-img" />
                                 <div class="bg-overlay"></div>
+                                <div class="place-bid-btn">
+                                    <a href="{{ route('order.new', ['product_id' => $product->id]) }}" class="btn btn-success"><i class="ri-shopping-cart-fill align-bottom me-1"></i> Place Order</a>
+                                </div>
                             </div>
                             <div class="card-body">
-                                <p class="fw-medium mb-0 float-end"><i class="ri-shopping-bag-fill text-primary align-middle"></i> 2k </p>
-                                <h5 class="mb-1"><a href="">High Quality Metal Body Black Nozzle</a></h5>
-                                <p class="text-muted mb-0">Health & Beauty</p>
+                                <h5 class="mb-1"><a href="{{ route('product.show', ['product' => $product->id]) }}">tet</a></h5>
+                            </div>
+                            <div class="card-footer border-top border-top-dashed">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-grow-1 fs-14">
+                                        <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i><span class="fw-medium">Price</span>
+                                    </div>
+                                    <h5 class="flex-shrink-0 fs-14 text-primary mb-0">tet PKR</h5>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                <!-- @endforeach -->
+
             </div><!-- end container -->
         </section>
         <!-- end marketplace -->
