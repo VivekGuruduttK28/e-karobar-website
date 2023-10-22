@@ -180,11 +180,11 @@
                                 <img src="https://e-karobar-runtime-bucket.blr1.digitaloceanspaces.com/" alt="" class="card-img-top explore-img" />
                                 <div class="bg-overlay"></div>
                                 <div class="place-bid-btn">
-                                    <a href="{{ route('order.new', ['product_id' => $product->id]) }}" class="btn btn-success"><i class="ri-shopping-cart-fill align-bottom me-1"></i> Place Order</a>
+                                    <a href="#" class="btn btn-success"><i class="ri-shopping-cart-fill align-bottom me-1"></i> Place Order</a>
                                 </div>
                             </div>
                             <div class="card-body">
-                                <h5 class="mb-1"><a href="{{ route('product.show', ['product' => $product->id]) }}">tet</a></h5>
+                                <h5 class="mb-1"><a href="#">tet</a></h5>
                             </div>
                             <div class="card-footer border-top border-top-dashed">
                                 <div class="d-flex align-items-center">
