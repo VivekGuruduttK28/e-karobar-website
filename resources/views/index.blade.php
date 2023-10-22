@@ -154,36 +154,8 @@
         </div>
         <!-- end container -->
     </div>
-    
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="text-center mb-5">
-                            <h2 class="mb-3 fw-semibold lh-base">Our Products</h2>
-                            <p class="text-muted mb-4">500+ Top nech winning products with hight profit ratio.</p>
-                        </div>
-                    </div><!-- end col -->
-                </div><!-- end row -->
-                <div class="row">
-                    <div class="col-lg-4 product-item artwork crypto-card 3d-style">
-                        <div class="card explore-box card-animate">
-                            <div class="explore-place-bid-img">
-                                <img src="http://systems.e-karobar.com/storage/assets/images/product_image/105e5460-ba27-4948-8ee1-8ff0426c2cae.jfif" alt="" class="card-img-top explore-img" />
-                                <div class="bg-overlay"></div>
-                            </div>
-                            <div class="card-body">
-                                <p class="fw-medium mb-0 float-end"><i class="ri-shopping-bag-fill text-primary align-middle"></i> 2k </p>
-                                <h5 class="mb-1"><a href="">High Quality Metal Body Black Nozzle</a></h5>
-                                <p class="text-muted mb-0">Health & Beauty</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- end container -->
-        </section>
-        <!-- end marketplace -->
+    <!-- end client section -->
 
-    <!-- start services -->
     <section class="section" id="services">
         <div class="container">
             <div class="row justify-content-center">
