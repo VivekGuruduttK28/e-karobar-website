@@ -47,7 +47,7 @@
                         <a class="nav-link fs-15 active" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-15 active" href="#products">Products</a>
+                        <a class="nav-link fs-15 active" href="{{ route('products.index') }}">Products</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link fs-15 active" href="#services">Services</a>
@@ -154,10 +154,7 @@
         </div>
         <!-- end container -->
     </div>
-    <!-- end client section -->
-
-    <!-- start marketplace -->
-    <section class="section bg-light" id="products">
+    
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
