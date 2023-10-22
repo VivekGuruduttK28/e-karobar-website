@@ -180,11 +180,11 @@
                                 <img src="#" alt="" class="card-img-top explore-img" />
                                 <div class="bg-overlay"></div>
                                 <div class="place-bid-btn">
-                                    <a href="#" class="btn btn-success"><i class="ri-shopping-cart-fill align-bottom me-1"></i> Place Order</a>
+                                    <a href="https://clients.e-karobar.com/login" class="btn btn-success"><i class="ri-shopping-cart-fill align-bottom me-1"></i> Place Order</a>
                                 </div>
                             </div>
                             <div class="card-body">
-                                <h5 class="mb-1"><a href="#">tet</a></h5>
+                                <h5 class="mb-1">test</h5>
                             </div>
                             <div class="card-footer border-top border-top-dashed">
                                 <div class="d-flex align-items-center">
