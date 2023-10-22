@@ -15,7 +15,7 @@ class MainPageController extends Controller
      */
     public function index()
     {
-        $products = Product::paginate(12);
+        $products = Product::paginate(12)->where('is_published', 1);
 
         return view('index', compact(['products']));
     }
