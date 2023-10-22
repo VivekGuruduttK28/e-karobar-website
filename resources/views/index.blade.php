@@ -182,7 +182,7 @@
                             </div>
                             <div class="card-body">
                                 
-                                <h5 class="mb-1">{{ implode(' ', array_slice(explode(' ', $product->name), 0, 5)) . (str_word_count($product->name) > 5 ? ' ..' : '') }}</h5>
+                                <h5 class="mb-1">{{ implode(' ', array_slice(explode(' ', $product->name), 0, 6)) . (str_word_count($product->name) > 5 ? ' ...' : '') }}</h5>
                             </div>
                             <div class="card-footer border-top border-top-dashed">
                                 <div class="d-flex align-items-center">
@@ -196,7 +196,7 @@
                     </div>
                 @endforeach
             </div><!-- end container -->
-            <div class="row g-0 text-center text-sm-start align-items-center mb-4">
+            <div class="row g-0 text-center text-sm-start align-items-center mb-2">
                 {!! $products->links() !!}
             </div><!-- end row -->
         </section>
