@@ -170,14 +170,14 @@
                 
 
                 <div class="row row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-1">
-                <!-- @foreach($products as $product) -->
+                
                     <div class="col">
                         <div class="card explore-box card-animate">
                             <div class="bookmark-icon position-absolute top-0 end-0 p-2">
                                 <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
                             </div>
                             <div class="explore-place-bid-img">
-                                <img src="https://e-karobar-runtime-bucket.blr1.digitaloceanspaces.com/" alt="" class="card-img-top explore-img" />
+                                <img src="#" alt="" class="card-img-top explore-img" />
                                 <div class="bg-overlay"></div>
                                 <div class="place-bid-btn">
                                     <a href="#" class="btn btn-success"><i class="ri-shopping-cart-fill align-bottom me-1"></i> Place Order</a>
@@ -196,7 +196,6 @@
                             </div>
                         </div>
                     </div>
-                <!-- @endforeach -->
 
             </div><!-- end container -->
         </section>
