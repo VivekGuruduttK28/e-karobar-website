@@ -173,9 +173,6 @@
                 
                     <div class="col">
                         <div class="card explore-box card-animate">
-                            <div class="bookmark-icon position-absolute top-0 end-0 p-2">
-                                <button type="button" class="btn btn-icon active" data-bs-toggle="button" aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></button>
-                            </div>
                             <div class="explore-place-bid-img">
                                 <img src="#" alt="" class="card-img-top explore-img" />
                                 <div class="bg-overlay"></div>

@@ -7,7 +7,7 @@ use App\Models\User;
 use App\Models\PayoutAccount;
 use Illuminate\Support\Facades\Hash;
 
-class ProductController extends Controller
+class MainPageController extends Controller
 {
 
 
@@ -16,7 +16,7 @@ class ProductController extends Controller
      */
     public function index()
     {
-        return view('products');
+        return view('index');
     }
 
 
