@@ -170,7 +170,7 @@
                 
 
                 <div class="row row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-1">
-                
+                @foreach($products as $product)
                     <div class="col">
                         <div class="card explore-box card-animate">
                             <div class="explore-place-bid-img">
@@ -181,7 +181,7 @@
                                 </div>
                             </div>
                             <div class="card-body">
-                                <h5 class="mb-1">test</h5>
+                                <h5 class="mb-1">{{ $product->name}}</h5>
                             </div>
                             <div class="card-footer border-top border-top-dashed">
                                 <div class="d-flex align-items-center">
@@ -193,7 +193,7 @@
                             </div>
                         </div>
                     </div>
-
+                @endforeach
             </div><!-- end container -->
         </section>
         <!-- end marketplace -->

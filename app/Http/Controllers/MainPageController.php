@@ -3,9 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\User;
-use App\Models\PayoutAccount;
 use Illuminate\Support\Facades\Hash;
+use App\Models\Product;
 
 class MainPageController extends Controller
 {
@@ -16,7 +15,9 @@ class MainPageController extends Controller
      */
     public function index()
     {
-        return view('index');
+        $products = Product::paginate(12);
+
+        return view('index', compact(['products']));
     }
 
 
