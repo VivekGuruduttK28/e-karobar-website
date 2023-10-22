@@ -174,21 +174,22 @@
                     <div class="col">
                         <div class="card explore-box card-animate">
                             <div class="explore-place-bid-img">
-                                <img src="#" alt="" class="card-img-top explore-img" />
+                                <img src="https://e-karobar-runtime-bucket.blr1.digitaloceanspaces.com/{{ $product->image_0 }}" alt="" class="card-img-top explore-img" />
                                 <div class="bg-overlay"></div>
                                 <div class="place-bid-btn">
                                     <a href="https://clients.e-karobar.com/login" class="btn btn-success"><i class="ri-shopping-cart-fill align-bottom me-1"></i> Place Order</a>
                                 </div>
                             </div>
                             <div class="card-body">
-                                <h5 class="mb-1">{{ $product->name}}</h5>
+                                
+                                <h5 class="mb-1">{{ implode(' ', array_slice(explode(' ', $product->name), 0, 5)) . (str_word_count($product->name) > 5 ? ' ..' : '') }}</h5>
                             </div>
                             <div class="card-footer border-top border-top-dashed">
                                 <div class="d-flex align-items-center">
                                     <div class="flex-grow-1 fs-14">
                                         <i class="ri-price-tag-3-fill text-warning align-bottom me-1"></i><span class="fw-medium">Price</span>
                                     </div>
-                                    <h5 class="flex-shrink-0 fs-14 text-primary mb-0">tet PKR</h5>
+                                    <h5 class="flex-shrink-0 fs-14 text-primary mb-0">{{ $product->unit_price}} PKR</h5>
                                 </div>
                             </div>
                         </div>
