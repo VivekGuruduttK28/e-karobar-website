@@ -195,6 +195,9 @@
                     </div>
                 @endforeach
             </div><!-- end container -->
+            <div class="row g-0 text-center text-sm-start align-items-center mb-4">
+                {!! $products->links() !!}
+            </div><!-- end row -->
         </section>
         <!-- end marketplace -->
 
