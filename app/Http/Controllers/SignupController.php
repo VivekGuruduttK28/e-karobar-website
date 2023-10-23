@@ -50,6 +50,7 @@ class SignupController extends Controller
             'email' => $data['email'],
             'cnic_no' => $data['cnic_no'],
             'password' => Hash::make($data['password']),
+            'is_active' => 0,
         ]);
 
 

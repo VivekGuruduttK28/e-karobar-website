@@ -20,6 +20,7 @@ class User extends Model
         'cnic_no',
         'employee_code',
         'password',
+        'is_active',
         'remember_token',
     ];
 
