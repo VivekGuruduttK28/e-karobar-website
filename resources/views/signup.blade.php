@@ -97,7 +97,7 @@
                                         </div>
                                         <div class="col-xxl-6 col-md-6">
                                             <div class="mb-3">
-                                                <label for="cnic_no" class="form-label font-18">CNIC #</label>
+                                                <label for="cnic_no" class="form-label font-18">CNIC # <span>(optioanl)</label>
                                                 <input type="text" class="form-control font-15" id="cnic_no"
                                                        placeholder="42201-0000000-0" name="cnic_no">
                                                 @error('cnic_no')

@@ -29,7 +29,7 @@ class SignupController extends Controller
             'name' => ['required', 'string', 'max:255'],
             'user_name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'max:255'],
-            'cnic_no' => ['required', 'string', 'max:255'],
+            'cnic_no' => ['nullable', 'string', 'max:255'],
             'company' => ['nullable', 'string', 'max:255'],
             'website' => ['required', 'string', 'max:255'],
             'contact_no' => ['required', 'string', 'max:255'],
