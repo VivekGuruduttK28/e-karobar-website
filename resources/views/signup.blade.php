@@ -68,7 +68,7 @@
                                                 <label for="name" class="form-label font-18">Full Name <span
                                                         class="text-danger">*</span></label>
                                                 <input type="text" class="form-control font-15" id="name"
-                                                       placeholder="Name" name="name">
+                                                       placeholder="Name" name="name" value="{{ old('name') }}">
                                                 @error('name')
                                                 <div class="text-danger">{{ $message }}</div>
                                                 @enderror
