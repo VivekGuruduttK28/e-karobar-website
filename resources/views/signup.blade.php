@@ -131,7 +131,7 @@
                                         </div>
                                         <div class="col-xxl-6 col-md-6">
                                             <div class="mb-3">
-                                                <label for="website" class="form-label font-18">Website (optioanl)</label>
+                                                <label for="website" class="form-label font-18">Website <span>(optioanl)</span></label>
                                                 <input type="text" class="form-control font-15" id="website"
                                                        placeholder="Website" name="website">
                                                 @error('website')
