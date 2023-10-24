@@ -65,7 +65,8 @@
                                     <div class="row gy-4">
                                         <div class="col-xxl-6 col-md-6">
                                             <div class="mb-3">
-                                                <label for="name" class="form-label font-18">Full Name</label>
+                                                <label for="name" class="form-label font-18">Full Name <span
+                                                        class="text-danger">*</span></label>
                                                 <input type="text" class="form-control font-15" id="name"
                                                        placeholder="Name" name="name">
                                                 @error('name')
@@ -75,7 +76,8 @@
                                         </div>
                                         <div class="col-xxl-6 col-md-6">
                                             <div class="mb-3">
-                                                <label for="user_name" class="form-label font-18">Username</label>
+                                                <label for="user_name" class="form-label font-18">Username <span
+                                                        class="text-danger">*</span></label>
                                                 <input type="text" class="form-control font-15" id="user_name"
                                                        placeholder="Username" name="user_name">
                                                 @error('user_name')
@@ -87,7 +89,8 @@
                                     <div class="row gy-4">
                                         <div class="col-xxl-6 col-md-6">
                                             <div class="mb-3">
-                                                <label for="email" class="form-label font-18">Email</label>
+                                                <label for="email" class="form-label font-18">Email <span
+                                                        class="text-danger">*</span></label>
                                                 <input type="email" class="form-control font-15" id="email"
                                                        placeholder="Email" name="email">
                                                 @error('email')
@@ -97,7 +100,7 @@
                                         </div>
                                         <div class="col-xxl-6 col-md-6">
                                             <div class="mb-3">
-                                                <label for="cnic_no" class="form-label font-18">CNIC # <span>(optioanl)</label>
+                                                <label for="cnic_no" class="form-label font-18">CNIC # <span>(optioanl)</span></label>
                                                 <input type="text" class="form-control font-15" id="cnic_no"
                                                        placeholder="42201-0000000-0" name="cnic_no">
                                                 @error('cnic_no')
@@ -109,7 +112,8 @@
                                     <div class="row gy-4">
                                         <div class="col-xxl-6 col-md-6">
                                             <div class="mb-3">
-                                                <label for="contact_no" class="form-label font-18">Contact/WhatsApp</label>
+                                                <label for="contact_no" class="form-label font-18">Contact/WhatsApp <span
+                                                        class="text-danger">*</span></label>
                                                 <input type="text" class="form-control font-15" id="contact_no"
                                                        placeholder="Contact/WhatsApp" name="contact_no">
                                                 @error('contact_no')
@@ -121,7 +125,8 @@
                                     <div class="row gy-4">
                                         <div class="col-xxl-6 col-md-6">
                                             <div class="mb-3">
-                                                <label for="company" class="form-label font-18">Company</label>
+                                                <label for="company" class="form-label font-18">Company <span
+                                                        class="text-danger">*</span></label>
                                                 <input type="text" class="form-control font-15" id="company"
                                                        placeholder="Company" name="company">
                                                 @error('company')
@@ -143,7 +148,8 @@
                                     <div class="row gy-4">
                                         <div class="col-xxl-6 col-md-6">
                                             <div class="mb-3">
-                                                <label for="bank_name" class="form-label font-18">Bank Name</label>
+                                                <label for="bank_name" class="form-label font-18">Bank Name <span
+                                                        class="text-danger">*</span></label>
                                                 <input type="text" class="form-control font-15" id="bank_name"
                                                        placeholder="Bank Name" name="bank_name">
                                                 @error('bank_name')
@@ -153,7 +159,8 @@
                                         </div>
                                         <div class="col-xxl-6 col-md-6">
                                             <div class="mb-3">
-                                                <label for="account_no" class="form-label font-18">Account No</label>
+                                                <label for="account_no" class="form-label font-18">Account No <span
+                                                        class="text-danger">*</span></label>
                                                 <input type="text" class="form-control font-15" id="account_no"
                                                        placeholder="Account No" name="account_no">
                                                 @error('account_no')
@@ -165,7 +172,8 @@
                                     <div class="row gy-4">
                                         <div class="col-xxl-6 col-md-6">
                                             <div class="mb-3">
-                                                <label for="iban" class="form-label font-18">IBAN</label>
+                                                <label for="iban" class="form-label font-18">IBAN <span
+                                                        class="text-danger">*</span></label>
                                                 <input type="text" class="form-control font-15" id="iban"
                                                        placeholder="IBAN" name="iban">
                                                 @error('iban')
@@ -175,7 +183,8 @@
                                         </div>
                                         <div class="col-xxl-6 col-md-6">
                                             <div class="mb-3">
-                                                <label for="account_title" class="form-label font-18">Account Title</label>
+                                                <label for="account_title" class="form-label font-18">Account Title <span
+                                                        class="text-danger">*</span></label>
                                                 <input type="text" class="form-control font-15" id="account_title"
                                                        placeholder="Account Title" name="account_title">
                                                 @error('account_title')
@@ -187,7 +196,8 @@
                                     <div class="row gy-4">
                                         <div class="col-xxl-6 col-md-6">
                                             <div class="mb-3">
-                                                <label class="form-label font-18" for="password-input">Password</label>
+                                                <label class="form-label font-18" for="password-input">Password <span
+                                                        class="text-danger">*</span></label>
                                                 <div class="position-relative auth-pass-inputgroup mb-3">
                                                     <input type="password" class="form-control pe-5 password-input font-15"
                                                            placeholder="password" id="password-input" name="password">
@@ -200,7 +210,8 @@
                                         </div>
                                         <div class="col-xxl-6 col-md-6">
                                             <div class="mb-3">
-                                                <label class="form-label font-18" for="password-input">Re-enter Password</label>
+                                                <label class="form-label font-18" for="password-input">Re-enter Password <span
+                                                        class="text-danger">*</span></label>
                                                 <div class="position-relative auth-pass-inputgroup mb-3">
                                                     <input type="password" class="form-control pe-5 password-input font-15"
                                                            placeholder="password" id="password-input" name="re-password">
