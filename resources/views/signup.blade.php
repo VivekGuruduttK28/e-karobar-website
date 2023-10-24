@@ -79,7 +79,7 @@
                                                 <label for="user_name" class="form-label font-18">Username <span
                                                         class="text-danger">*</span></label>
                                                 <input type="text" class="form-control font-15" id="user_name"
-                                                       placeholder="Username" name="user_name">
+                                                       placeholder="Username" name="user_name" value="{{ old('user_name') }}">
                                                 @error('user_name')
                                                 <div class="text-danger">{{ $message }}</div>
                                                 @enderror
@@ -92,7 +92,7 @@
                                                 <label for="email" class="form-label font-18">Email <span
                                                         class="text-danger">*</span></label>
                                                 <input type="email" class="form-control font-15" id="email"
-                                                       placeholder="Email" name="email">
+                                                       placeholder="Email" name="email" value="{{ old('email') }}">
                                                 @error('email')
                                                 <div class="text-danger">{{ $message }}</div>
                                                 @enderror
@@ -102,7 +102,7 @@
                                             <div class="mb-3">
                                                 <label for="cnic_no" class="form-label font-18">CNIC # <span>(optioanl)</span></label>
                                                 <input type="text" class="form-control font-15" id="cnic_no"
-                                                       placeholder="42201-0000000-0" name="cnic_no">
+                                                       placeholder="42201-0000000-0" name="cnic_no" value="{{ old('cnic_no') }}">
                                                 @error('cnic_no')
                                                 <div class="text-danger">{{ $message }}</div>
                                                 @enderror
@@ -115,7 +115,7 @@
                                                 <label for="contact_no" class="form-label font-18">Contact/WhatsApp <span
                                                         class="text-danger">*</span></label>
                                                 <input type="text" class="form-control font-15" id="contact_no"
-                                                       placeholder="Contact/WhatsApp" name="contact_no">
+                                                       placeholder="Contact/WhatsApp" name="contact_no" value="{{ old('contact_no') }}">
                                                 @error('contact_no')
                                                 <div class="text-danger">{{ $message }}</div>
                                                 @enderror
@@ -128,7 +128,7 @@
                                                 <label for="company" class="form-label font-18">Company <span
                                                         class="text-danger">*</span></label>
                                                 <input type="text" class="form-control font-15" id="company"
-                                                       placeholder="Company" name="company">
+                                                       placeholder="Company" name="company" value="{{ old('company') }}">
                                                 @error('company')
                                                 <div class="text-danger">{{ $message }}</div>
                                                 @enderror
@@ -138,7 +138,7 @@
                                             <div class="mb-3">
                                                 <label for="website" class="form-label font-18">Website <span>(optioanl)</span></label>
                                                 <input type="text" class="form-control font-15" id="website"
-                                                       placeholder="Website" name="website">
+                                                       placeholder="Website" name="website" value="{{ old('website') }}">
                                                 @error('website')
                                                 <div class="text-danger">{{ $message }}</div>
                                                 @enderror
@@ -151,7 +151,7 @@
                                                 <label for="bank_name" class="form-label font-18">Bank Name <span
                                                         class="text-danger">*</span></label>
                                                 <input type="text" class="form-control font-15" id="bank_name"
-                                                       placeholder="Bank Name" name="bank_name">
+                                                       placeholder="Bank Name" name="bank_name" value="{{ old('bank_name') }}">
                                                 @error('bank_name')
                                                 <div class="text-danger">{{ $message }}</div>
                                                 @enderror
@@ -162,7 +162,7 @@
                                                 <label for="account_no" class="form-label font-18">Account No <span
                                                         class="text-danger">*</span></label>
                                                 <input type="text" class="form-control font-15" id="account_no"
-                                                       placeholder="Account No" name="account_no">
+                                                       placeholder="Account No" name="account_no" value="{{ old('account_no') }}">
                                                 @error('account_no')
                                                 <div class="text-danger">{{ $message }}</div>
                                                 @enderror
@@ -175,7 +175,7 @@
                                                 <label for="iban" class="form-label font-18">IBAN <span
                                                         class="text-danger">*</span></label>
                                                 <input type="text" class="form-control font-15" id="iban"
-                                                       placeholder="IBAN" name="iban">
+                                                       placeholder="IBAN" name="iban" value="{{ old('iban') }}">
                                                 @error('iban')
                                                 <div class="text-danger">{{ $message }}</div>
                                                 @enderror
@@ -186,7 +186,7 @@
                                                 <label for="account_title" class="form-label font-18">Account Title <span
                                                         class="text-danger">*</span></label>
                                                 <input type="text" class="form-control font-15" id="account_title"
-                                                       placeholder="Account Title" name="account_title">
+                                                       placeholder="Account Title" name="account_title" value="{{ old('account_title') }}">
                                                 @error('account_title')
                                                 <div class="text-danger">{{ $message }}</div>
                                                 @enderror
