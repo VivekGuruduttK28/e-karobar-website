@@ -167,7 +167,7 @@
                         </div>
                     </div><!-- end col -->
                 </div><!-- end row -->
-                
+
 
                 <div class="row row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-1">
                 @foreach($products as $product)
@@ -181,7 +181,7 @@
                                 </div>
                             </div>
                             <div class="card-body">
-                                
+
                                 <h5 class="mb-1">{{ implode(' ', array_slice(explode(' ', $product->name), 0, 6)) . (str_word_count($product->name) > 5 ? ' ...' : '') }}</h5>
                             </div>
                             <div class="card-footer border-top border-top-dashed">
@@ -698,11 +698,13 @@
     </footer>
     <!-- end footer -->
 
-    <!--start back-to-top-->
-    <button onclick="topFunction()" class="btn btn-danger btn-icon landing-back-top" id="back-to-top">
-        <i class="ri-arrow-up-line"></i>
-    </button>
-    <!--end back-to-top-->
+    <!--start WhatsApp-->
+    <div class="customizer-setting d-none d-md-block">
+        <a href="https://wa.me/+923202405838" target="blank" class="btn-success btn-rounded shadow-lg btn btn-icon btn-lg p-2">
+            <i class='mdi mdi-spin mdi-whatsapp fs-22'></i>
+        </a>
+    </div>
+    <!--end WhatsApp-->
 
 </div>
 <!-- end layout wrapper -->
