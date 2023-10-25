@@ -608,6 +608,74 @@
     </section>
     <!-- end cta -->
 
+    <!-- start Work Process -->
+    <section class="section bg-light" id="top-sellers">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="text-center">
+                        <h2 class="mb-3 fw-semibold lh-base">FREQUENTLY ASKED QUESTIONS</h2>
+                    </div>
+                </div>
+            </div><!-- end row -->
+            <div class="row">
+                <div class="accordion accordion-border-box" id="genques-accordion">
+                    <div class="accordion-item shadow">
+                        <h2 class="accordion-header" id="genques-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#genques-collapseTwo" aria-expanded="false" aria-controls="genques-collapseTwo">
+                               How E-Karobar works?
+                            </button>
+                        </h2>
+                        <div id="genques-collapseTwo" class="accordion-collapse collapse" aria-labelledby="genques-headingTwo" data-bs-parent="#genques-accordion">
+                            <div class="accordion-body">
+                                E-Karobar is a dropshipping platform designed to facilitate seamless connections between dropshippers, vendors/suppliers, and courier companies. This innovative system alleviates the need for dropshippers to maintain inventory, while vendors can avoid direct interactions with retail customers. Various vendors across different product categories have enlisted their products on our platform at wholesale rates. Dropshippers can conveniently select products of their choice and market them on their online stores or social media platforms.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item shadow">
+                        <h2 class="accordion-header" id="genques-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#genques-collapseThree" aria-expanded="false" aria-controls="genques-collapseThree">
+                                How to start work with E-Karobar?
+                            </button>
+                        </h2>
+                        <div id="genques-collapseThree" class="accordion-collapse collapse" aria-labelledby="genques-headingThree" data-bs-parent="#genques-accordion">
+                            <div class="accordion-body">
+                                Complete the registration process by filling out the form at this link: <a href="https://e-karobar.com/signup">Click here</a>. Ensure that you provide all the necessary information and supporting documents for your account, which will be subject to a satisfactory review.
+                                <br>
+                                Once approved, the initial step is to thoroughly read our FAQs and policies. Additionally, watch our Basic Video Series to gain a comprehensive understanding of how the E-Karobar platform operates.
+                                <br>
+                                With your approval in place, you can commence the process of listing products on your online store or social media pages. Follow these steps to forward orders:
+                                <br>
+                                Establish a business profile under your brand name, which will be printed on the shipping label.
+                                <br>
+                                Locate the desired product, add it to your cart.
+                                <br>
+                                Navigate to the checkout form and input your customer's name, complete address, choose your preferred courier company, your customer's city and contact number, the selling price you offered, select your business profile, and then click on submit order.
+                                <br>
+                                Courier tracking IDs will be generated within 5 minutes, which you can promptly share with your customer to keep them informed about the order's status.
+                                </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item shadow">
+                        <h2 class="accordion-header" id="genques-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#genques-collapseFour" aria-expanded="false" aria-controls="genques-collapseFour">
+                                How to contact E-karobar's Support team incase of any issue ?
+                            </button>
+                        </h2>
+                        <div id="genques-collapseFour" class="accordion-collapse collapse" aria-labelledby="genques-headingFour" data-bs-parent="#genques-accordion">
+                            <div class="accordion-body">
+                                You are assigned a dedicated Account Manager, who will look after all of your account related issues. Account Manager's Contact Details are provided in your Members Area on our Portal. In case you can also leave us email at cs@e-karobar.com where our representative will get you back immediately.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end accordion-->
+            </div>
+        </div><!-- end container -->
+    </section><!-- end Work Process -->
+
+
+
     <!-- Start footer -->
     <footer class="custom-footer bg-dark py-5 position-relative">
         <div class="container">
