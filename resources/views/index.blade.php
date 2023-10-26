@@ -91,7 +91,7 @@
                     <div class="text-center">
                         <h1 class="display-4 fw-medium mb-4 lh-base text-white">Pakistan #1 high profitable <span class="text-success">Dropshipping Marketplace</span></h1>
                         <div class="hstack gap-2 justify-content-center">
-                            <a class="btn btn-danger btn-label waves-effect waves-light rounded-pill" href="https://www.youtube.com/@E_KAROBAR">
+                            <a class="btn btn-danger btn-label waves-effect waves-light rounded-pill" target="_blank" href="https://www.youtube.com/@E_KAROBAR">
                                 <i class="ri-youtube-line label-icon align-middle fs-16"></i>
                                 Training Sessions
                             </a>
